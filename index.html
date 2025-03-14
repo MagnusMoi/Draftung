@@ -1,0 +1,74 @@
+<html>
+    <head>
+
+        <title>Draft</title>
+
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/specific.css">
+        
+        <script type="text/javascript" src="data/DTB.js"></script>
+
+        <script type="text/javascript" src="js/audio.js"></script>
+        <script type="text/javascript" src="js/backservices.js"></script>
+        <script type="text/javascript" src="js/display.js"></script>
+        <script type="text/javascript" src="js/job.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+
+    </head>
+    <body onload="main()">
+
+        <div id="Header" class="Info">
+            <div id="Handler_Image_Wrestler" class="Handler_Logo_Message">
+                <img id="IMG_Message_1" class="Logo_Message" src="ressources/images/shows/Draft_Logo.png" alt="Info">
+            </div>
+            <div id="Handler_Message_Wrestler" class="Handler_Message">
+                <h1 id="Message_Title" class="Message_Headline">La Draft Annuelle MWC est sur le point de commencer</h1>
+                <div id="Message_Description" class="Message_Description">Asseyez vous, profitez du spectacle, on est sur le point de commencer</div>
+            </div>
+            <div id="Handler_Image_Show" class="Handler_Logo_Message">
+                <img id="IMG_Message_2" class="Logo_Message" src="ressources/images/shows/Draft_Logo.png" alt="Info">
+            </div>
+        </div>
+        <div id="Rosters" class="Columns">
+            <div id="DDT_Columns" class="Column DDT_Color">
+                <div id="DDT_List_Header" class="List_Header"></div>
+                <div id="DDT_List_Content" class="List_Content">
+                    <div id="Wrestler_1" class="List_Item DDT_Color">
+                        <div id="Wrestler_Image_1" class="List_Item_Subpart">
+                            <img id="IMG_Wrestler_1" class="Logo_Wrestler" src="ressources/images/wrestlers/Default.png" alt="Wrestler">
+                        </div>
+                        <div id="Wrestler_Info_1" class="List_Item_Subpart">
+                            <h1 class="LAB_Wrestler" >Wrestler</h1>
+                        </div>
+                        <div id="Wrestler_Champ_1" class="List_Item_Subpart">
+                            <img id="IMG_Champ" class="Logo_Wrestler" src="ressources/images/championships/Default.png" alt="Wrestler">
+                        </div>
+                        <div id="Wrestler_Selection_1" class="List_Item_Subpart">
+                            <button id="BTN_Wrestler_Selection_1" class="BTN_Draft" type="button">Draftung</button> 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="DRAFT_Columns" class="Column DRAFT_Color">
+                <div id="DRAFT_List_Header" class="List_Header"></div>
+                <div id="DRAFT_List_Content" class="List_Content">
+
+                </div>
+            </div>
+            <div id="SCREW_Columns" class="Column SCREW_Color">
+                <div id="SCREW_List_Header" class="List_Header"></div>
+                <div id="SCREW_List_Content" class="List_Content">
+
+                </div>
+            </div>
+        </div>
+        <div id="ChampChanger" class="Championship"></div>
+        <audio id="AUDIO_Player" >
+            <source src="ressources/sounds/musics/WWE_Draft_Music.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio> 
+
+    </body>
+</html>

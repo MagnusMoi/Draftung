@@ -1,0 +1,39 @@
+
+.DDT_Color{
+    background-color: #ef1c1c;
+}
+
+.DRAFT_Color{
+    background-color: #484848;
+}
+
+.SCREW_Color{
+    background-color: #1c1cef;
+}
+
+.BWS_Color{
+    background-color: #cfef1c;
+}
+
+.WOW_Color{
+    background-color: #ef1cc1;
+}
+
+.DYO_Font{
+    font-family: Sega;
+}
+
+#DDT_List_Header{
+    background-image: url("../ressources/images/shows/DDT_Logo.png");
+    
+}
+
+#DRAFT_List_Header{
+    background-image: url("../ressources/images/shows/DRAFT_Logo.png");
+    
+}
+
+#SCREW_List_Header{
+    background-image: url("../ressources/images/shows/Screw_Logo.png");
+    
+}

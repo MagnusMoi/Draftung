@@ -1,0 +1,83 @@
+body{
+    background-color: #000000;
+}
+
+.Info{
+    background-color: #cecece;
+    padding: 5px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Columns{
+    background-color: #afafaf;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Championship{
+    background-color: #919191;
+    padding: 5px;
+    min-height: 50px;
+}
+
+.Column{
+    background-color: #666666;
+    padding: 5px;
+    margin-left: 5px;
+    min-width: 32%;
+    height: 600px;
+    overflow-y: scroll;
+    display: inline-block;
+}
+
+.List_Header{
+    background-color: #919191;
+    padding: 5px;
+    min-height: 50px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.List_Content{
+    background-color: #919191;
+    margin-top: 5px;
+    padding: 5px;
+    min-height: 525px;
+}
+
+.List_Item{
+    margin-top: 5px;
+    min-height: 50px;
+    display: flex;
+    /*justify-content: center;*/
+}
+
+.List_Item_Subpart{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.LAB_Wrestler{
+    
+}
+
+.Logo_Wrestler{
+    width: 64px;
+    height: 64px;
+}
+
+.Logo_Message{
+    width: 256px;
+    height: 256px;
+}
+
+.Handler_Message{
+    min-width: 50%;
+}
