@@ -11,11 +11,20 @@ var aryFakeChampionship = [
     {
         nIdChampionship : 2,
         sName : "MWC International Championship",
-        sDescription : "Our Championship",
+        sDescription : "Female international championship",
+        nIdRoster : 0,
+        nIdChampion : 2,
+        sImage : "International_Woman_Title.png",
+        nIdOpposite : 1
+    },
+    {
+        nIdChampionship : 3,
+        sName : "MWC World Championship",
+        sDescription : "World Championship, male edition",
         nIdRoster : 0,
         nIdChampion : 0,
         sImage : "International_Woman_Title.png",
-        nIdOpposite : 1
+        nIdOpposite : 0
     }
 ];
 

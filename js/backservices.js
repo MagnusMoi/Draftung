@@ -139,7 +139,7 @@ function findFirstIndexChampionshipByWrestlerId(nIdWrestler){
         oChampionship = storage.ary_oChampionships[nLine];
 
         //check
-        if( oChampionship.nIdChampionship == nIdWrestler )
+        if( oChampionship.nIdChampion == nIdWrestler )
             return nLine;
 
         //next
